@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>您的姓名 - 个人主页</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">主页</a></li>
+            <li><a href="#education">教育经历</a></li>
+            <li><a href="#experience">实践经历</a></li>
+            <li><a href="#skills">技能</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1>您的姓名</h1>
+        <p>职位 | 邮箱 | 电话 | 城市</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>关于我</h2>
+            <p>在这里简短介绍您自己，包括您的职业目标和主要优势。</p>
+        </section>
+
+        <section id="education">
+            <h2>教育经历</h2>
+            <div class="card">
+                <h3>学位 - 专业</h3>
+                <p>学校名称, 毕业年份</p>
+                <p>可以添加相关的学习成就或者重要课程</p>
+            </div>
+            <!-- 可以添加更多教育经历 -->
+        </section>
+
+        <section id="experience">
+            <h2>实践经历</h2>
+            <div class="card">
+                <h3>职位名称</h3>
+                <p>公司名称, 工作时间段</p>
+                <ul>
+                    <li>描述您的主要职责和成就</li>
+                    <li>使用具体数字或百分比来量化您的成就</li>
+                    <li>强调您如何为公司创造价值</li>
+                </ul>
+            </div>
+            <!-- 可以添加更多工作经验 -->
+        </section>
+
+        <section id="skills">
+            <h2>技能</h2>
+            <div class="skills-container">
+                <span class="skill-tag">技能1</span>
+                <span class="skill-tag">技能2</span>
+                <span class="skill-tag">技能3</span>
+                <span class="skill-tag">技能4</span>
+                <!-- 添加更多相关技能 -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 您的姓名. 保留所有权利。</p>
+    </footer>
+</body>
+</html>
